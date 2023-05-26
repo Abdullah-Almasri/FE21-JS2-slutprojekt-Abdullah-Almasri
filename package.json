@@ -1,0 +1,34 @@
+{
+  "name": "fe21-js2-slutprojekt-abdullah-almasri",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": [
+    "Firefox>95",
+    "Chrome>95"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullah-Almasri/FE21-JS2-slutprojekt-Abdullah-Almasri.git"
+  },
+  "dependencies": {
+    "firebase": "^9.6.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdullah-Almasri/FE21-JS2-slutprojekt-Abdullah-Almasri/issues"
+  },
+  "homepage": "https://github.com/Abdullah-Almasri/FE21-JS2-slutprojekt-Abdullah-Almasri#readme",
+  "devDependencies": {
+    "del-cli": "^5.0.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
